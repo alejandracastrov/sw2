@@ -4,7 +4,7 @@
  */
 package ejericicio;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 
 /**
@@ -14,16 +14,23 @@ import java.util.Scanner;
 public class Root {
     
     
-    
      public static void main(String[] args) {
-           
-     Pagos p1= new Pagos();
+     
+     
+        formulario_Pagos forma = new formulario_Pagos();
+        forma.setVisible(true);  
+  
+         
+     /**Pagos p1= new Pagos();
      Membresia mem=new Membresia();
      Scanner leer= new Scanner(System.in);
      Video vid=new Video();
      Agente agen=new Agente();
      
      //boolean while1=true;
+  
+     
+     
      int op;
      
       // while(while1){
@@ -66,9 +73,18 @@ public class Root {
                 break;
             default:
                 break;
-             } 
-         }
+         
+     }*/ 
+     
      }
+     
+
+}
+ 
+
+
+
+
 
          
  

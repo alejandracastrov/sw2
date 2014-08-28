@@ -13,6 +13,7 @@ public class Video {
     String nombre;
     float costo;
     String descripción;
+    String formato;
     
    public void comparar_video(){
         String nombre;
